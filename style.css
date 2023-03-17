@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  height: 90dvh;
+  height: 90vh;
+  max-width: 100vw;
+  max-width: 100dvw;
+}
+html {
+  font-size: 62.5%;
+}
+.business-card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem 1rem 1rem 1rem;
+  background-color: #222222;
+  cursor: pointer;
+  margin: 20px 10px;
+}
+.business-card img {
+  max-width: 30rem;
+  width: 100%;
+  height: 20rem;
+  border-radius: 1rem 1rem 0 0;
+  transition: 0.5s;
+}
+.business-card img:hover{
+    transform: scale(1.01);
+}
+.card-content {
+  color: white;
+  transition: 0.5s;
+}
+.main-heading {
+  font-size: 2rem;
+  text-align: center;
+  max-width: 20rem;
+  margin: 1rem auto 0.5rem;
+}
+
+.job-title {
+  color: orangered;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.btn {
+  padding: 0.6rem 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin: 0 3rem;
+  cursor: pointer;
+}
+.fa-brands {
+  color: white;
+}
+.btn--1 {
+  background: #5555e7;
+  color: white;
+}
+.about {
+  margin: 0 3rem;
+}
+.about-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+.about-description {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+.footer-links {
+  padding: 1rem;
+  background-color: black;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.icon--1 {
+  font-size: 1.7rem;
+}
